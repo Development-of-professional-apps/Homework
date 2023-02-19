@@ -47,7 +47,7 @@ class LightCreeper(Creeper):
 
 if __name__ == '__main__':
     
-    creepers = [ElectricCreeper(), ElectricCreeper(), LightCreeper(), ElectricCreeper(), LightCreeper()]
+    creepers = [ElectricCreeper(), ElectricCreeper()]
 
     for c in creepers:
         c.explode()
